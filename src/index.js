@@ -6,12 +6,13 @@ import reportWebVitals from './reportWebVitals';
 // import Header from './compnents/Header';
 import Main from './compnents/Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './App';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-  <Main/>
+  <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
